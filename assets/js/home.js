@@ -1,8 +1,7 @@
 const articles = JSON.parse(localStorage.getItem('articles'));
 const timeConvert = (unix) => {
   const dateTime = new Date(unix);
-
-  return dateTime.toLocaleDateString("id-Id", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  return (new Intl.DateTimeFormat('id-Id', { dateStyle: 'full', timeStyle: 'long' }).format(dateTime))
 }
 
 const authorSearch = (authorId) => {
