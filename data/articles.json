@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Selamat Datang di Ulog",
+    "body": "Hai, hai, hai. Selamat Datang di website Ulog yah, website ini di buat untuk kamu yang senang menulis yah. Jika kamu ingin mulai menulis pengalaman kamu di Ulog, silakan Daftar terlebih dahulu yah.",
+    "unixtime": 1656917691676,
+    "user_id": 1
+  },
+  {
+    "id": 2,
+    "title": "Artikel kedua",
+    "body": "Ini merupakan artikel atau blog kedua pada Ulog ya guys ya",
+    "unixtime": 1656919703250,
+    "user_id": 1
+  }
+]
