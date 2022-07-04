@@ -40,6 +40,51 @@ main > .content {
 }
 
 main > aside {
+  font-family: 'Poppins', sans-serif;
   width: 25%;
-  border: 1px solid salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+article.biodata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #E2E8F0;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+article.biodata > h4 {
+  border-radius: 2rem;
+  background-color: #2563EB;
+  color: #EFF6FF;
+  padding: 0.5rem 2rem;
+}
+
+article.biodata > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 99999px;
+}
+
+article.biodata > .self {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+article.biodata > .self h5 {
+  border-bottom: 2px solid #1E293B;
+  color: #1E293B;
+}
+
+article.biodata > .self p {
+  color: #0F172A;
+  font-weight: 200;
 }
