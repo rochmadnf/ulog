@@ -55,9 +55,9 @@ article.biodata {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background-color: #E2E8F0;
+  border: 2px solid #64748B;
   padding: 2rem;
-  border-radius: 1.5rem;
+  border-radius: 0.725rem;
 }
 
 article.biodata > h4 {
@@ -80,11 +80,11 @@ article.biodata > .self {
 }
 
 article.biodata > .self h5 {
-  border-bottom: 2px solid #1E293B;
+  border-bottom: 2px solid #64748B;
   color: #1E293B;
 }
 
 article.biodata > .self p {
   color: #0F172A;
-  font-weight: 200;
+  font-weight: 300;
 }

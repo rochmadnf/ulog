@@ -8,8 +8,15 @@
   },
   {
     "id": 2,
-    "title": "Artikel kedua",
+    "title": "Artikel Ketiga",
     "body": "Ini merupakan artikel atau blog kedua pada Ulog ya guys ya",
+    "unixtime": 1656919703250,
+    "user_id": 1
+  },
+  {
+    "id": 3,
+    "title": "Artikel Ketiga",
+    "body": "Ini merupakan artikel atau blog ketiga pada Ulog ya guys ya",
     "unixtime": 1656919703250,
     "user_id": 1
   }
