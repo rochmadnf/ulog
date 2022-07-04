@@ -1,4 +1,11 @@
-const articles = JSON.parse(localStorage.getItem('articles')).filter(article => article.user_id === userLogin.id);
+let articles;
+if(userLogin){
+  articles = JSON.parse(localStorage.getItem('articles')).filter(article => article.user_id === userLogin.id);
+} else {
+  alert("Silakan masuk terlebih dahulu")
+  location.href = `${location.protocol}//${location.host}/pages/login.html`
+}
+
 const timeConvert = (unix) => {
   const dateTime = new Date(unix);
   return (new Intl.DateTimeFormat('id-Id', { dateStyle: 'full', timeStyle: 'long' }).format(dateTime))
