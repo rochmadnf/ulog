@@ -27,6 +27,7 @@ if (userLogin) {
 
             localStorage.setItem('users', JSON.stringify(users));
             alert(`Selamat, Akun anda berhasil didaftarkan!`)
+            location.href = `${location.protocol}//${location.host}/pages/login.html`
         }
     })
 }

@@ -55,3 +55,7 @@ main {
     outline: none;
     border: 1px solid #cbd5e1;
 }
+
+textarea.form-control {
+    height: 100%;
+}
