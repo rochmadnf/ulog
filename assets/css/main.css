@@ -62,7 +62,6 @@ nav>ul>li a {
     text-align: center;
     color: #94a3b8;
     text-decoration: none;
-    text-color: inherit;
 }
 
 nav>ul>li a:hover,
@@ -101,4 +100,16 @@ footer {
 
 .btn-primary:hover {
     background-color: #1d4ed8;
+}
+
+.alert {
+    font-family: "Poppins", sans-serif;
+    color: #111827;
+    background-color: aliceblue;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.alert-info {
+    background-color: #93c5fd;
 }
