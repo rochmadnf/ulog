@@ -113,3 +113,16 @@ footer {
 .alert-info {
     background-color: #93c5fd;
 }
+
+@media screen and (max-width: 740px) {
+    .auth-menu,
+    .islogin-menu {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .main-menu {
+        flex-direction: column !important;
+    }
+}
