@@ -58,8 +58,11 @@ nav > ul {
   gap: 1.5rem;
 }
 
-nav > ul > li {
+nav > ul > li  a {
+  text-align: center;
   color: #94A3B8;
+  text-decoration: none;
+  text-color: inherit;
 }
 
 nav > ul > li:hover, .active{
@@ -86,7 +89,7 @@ main > .content {
   flex-direction: column;
   gap: 1rem;
   font-family: 'Poppins', sans-serif;
-  border: 1px solid #64748B;
+  border: 2px solid #64748B;
   padding: 1rem;
   color: #111827;
   border-radius: 0.5rem;
@@ -94,7 +97,7 @@ main > .content {
 
 .article > h1 {
   padding-bottom: 0.25rem;
-  border-bottom: 3px solid #334155;
+  border-bottom: 2px solid #64748B;
 }
 
 .article > .info {
