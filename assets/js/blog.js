@@ -1,5 +1,4 @@
-const articles = JSON.parse(localStorage.getItem('articles'));
-
+const articles = JSON.parse(localStorage.getItem('articles')).filter(article => article.user_id === userLogin.id);
 const timeConvert = (unix) => {
   const dateTime = new Date(unix);
   return (new Intl.DateTimeFormat('id-Id', { dateStyle: 'full', timeStyle: 'long' }).format(dateTime))

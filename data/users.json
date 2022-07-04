@@ -5,5 +5,12 @@
     "username": "rochmadnf",
     "email": "rochmadnf@ulog.test",
     "password": "password"
+  },
+  {
+    "id": 2,
+    "name": "Guest First",
+    "username": "gestone",
+    "email": "gestone@ulog.test",
+    "password": "password"
   }
 ]
